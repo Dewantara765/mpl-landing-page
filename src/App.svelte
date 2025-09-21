@@ -3,6 +3,8 @@
   import Standings from "./layouts/Standings.svelte";
   import Navbar from "./layouts/Navbar.svelte";
   import Ticket from "./layouts/Ticket.svelte";
+  import Trending from "./layouts/Trending.svelte";
+  import News from "./layouts/News.svelte";
 </script>
 
 <main>
@@ -10,7 +12,8 @@
 <Ticket/>
 <Carousel/>
 <Standings/>
-  
+<Trending/> 
+<News/>
 </main>
 
 <style>
